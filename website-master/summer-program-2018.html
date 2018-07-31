@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Language" content="ar" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="hanadi.css" />
+  <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAS5SURBVGhD7VhbT1xVFEYfjA8an0xM1MQ/4Ksm+sBD58acw8DA3jNcLMzItOWSthJMiwIFWrAYi1qTqrUxwXgjFkNbW6SWak1Te1GkUIECLdOBKaXlDgWsNS7XnrPPmTNwhtBxmCHmfMkXCPuctb5vr7332pwEHTp06NChQ4eO/zESKX3MIBCbUSTlRpF+YBRII/7+iUkku02iI9ViIU/yR9cnjMmOl1HwcRT/p0mksALvo6kTRjHdxF9dHzClOJ9lwtRizckO8BQUw443q6Gsci+U7NwF7s1bA39XP2cSyGlzivM5Hip+YLOKVbgjC9tcVAItrafh9u0JWFy8r3Byag6Ghkeg9+oAfPFVE7y6ZbtiBt+fYUuRh4w9AvtAIH8zMXaHC062/QwLC3+FGFBzfv4ejI6Ogc/nhxs3huHLxiawkY2yIbbcnDx07GC0pr9oFOg8E5GX/xp4vTc1xWtxfHw6YIbx4qUOyHbnS5URyD2TNf0lnmLtkZiY+yguh2ss+SvuAvD7RzUFr8QpXGqymY6OLnBu3MQrQ/w2m+1xnmptgTNXw5ImpWRAT+91TaGrodrMqbYzykFgtJKDZoFWYZ4jJoGeMVnJYZZTEHKe5hL+O9hs4azdZQkPHGzQFPggHBubUsyUVtTwqoQnGhqxCE7K5UQOg0g8LKA1NXPZyRQpR0buwMeHPgOLzRki2mxzgGDPBMvSI5uNifQCpfQRLuvBgTPyAwtUVbNPU1QkrN//kSLQ7siFPW/VQ3dPf2BsYmImUK1z53+Dsl21S0yRWxGbkXtG87HWZYIiZba7MCCsvGovCp9dNj41fVdZft29/ZCZu0UxY0yml7m01UPq4FKAy509yxJGyqt9Xmj78eyKPUi9l7zeIchyFShmNoikkEsMj8rKyoexhG6sxEV8CZuW9HKqIwdq394Pff1ezcTRJjM57L+lmOnruw5JtgxuhsxwudqwWulTeBc6L4vXojU1AxoPH9VMHm2qGyljTd27QR3hGqnBQJ/Ajd0tP/h6aRV8f/InuPJHH/za3gUNn38DjmyPEuiXC+2ayaPJubnFECOdXT3s9JI0WOnXXHoosBEdYg+wJtXU3KIZmM0Qu9nSLA/0D/g0n4k21UYYBXtWwAhO+iUuPQiLxf4MDgQug9FoetEku0GrjaRluKSKCOQalx8EbuxCNiimZQVOC62A8aLaBGO2SzqKceIbufwg0MiHbHBbSZlmsHhx6R4ZGBgEUV5aIi3m8oPA46yBDZaW79EMGC/KXV7mt83HpWWF3JBEnufyg8CK1LHBnLwizYDxIvt3QTbBmqJr01ZuhPRw6aHAa7NFdtr++xXNoLHm5ORsSDX2vXdAqQbuD8Klh4JdxHDQyx7Ky98O4xPTmsFjxdnZBRgauqlUov794CUTT6tjKPkhSbkG0IgdH/xHNhOvykxPz4MPTQwO+uDod63gyS9WVYJ2ssbNJYcHmnlDNsOY4ykKNMDq2vo1Z1XNO1BRXQc7y3ZDwbYd6o8UEgXasioTMtAMxfL5QoLEkwIZNCTTTHaZ5RJXD/axwWxNT5M+f9IjeKqdihXxRDqBPz/FvBVo4gWUE34/6NChQ4cOHTp0rFckJPwL4qQcu4ZL4ykAAAAASUVORK5CYII=" />
+  <title>أنظمة غيمة - Cloud Systems - برنامج التدريب الصيفي</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56731261-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-56731261-3');
+  </script>
+</head>
+<body>
+  <nav id="error-message" class="error">
+    نعمل على نقل هذه التجربة المُذهلة وتحسينها إلى النطاق <a href="https://fortydays.sa">fortydays.sa</a>.
+  </nav>
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">الرئيسيّة</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="logo">
+      <a href="index.html">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAS5SURBVGhD7VhbT1xVFEYfjA8an0xM1MQ/4Ksm+sBD58acw8DA3jNcLMzItOWSthJMiwIFWrAYi1qTqrUxwXgjFkNbW6SWak1Te1GkUIECLdOBKaXlDgWsNS7XnrPPmTNwhtBxmCHmfMkXCPuctb5vr7332pwEHTp06NChQ4eO/zESKX3MIBCbUSTlRpF+YBRII/7+iUkku02iI9ViIU/yR9cnjMmOl1HwcRT/p0mksALvo6kTRjHdxF9dHzClOJ9lwtRizckO8BQUw443q6Gsci+U7NwF7s1bA39XP2cSyGlzivM5Hip+YLOKVbgjC9tcVAItrafh9u0JWFy8r3Byag6Ghkeg9+oAfPFVE7y6ZbtiBt+fYUuRh4w9AvtAIH8zMXaHC062/QwLC3+FGFBzfv4ejI6Ogc/nhxs3huHLxiawkY2yIbbcnDx07GC0pr9oFOg8E5GX/xp4vTc1xWtxfHw6YIbx4qUOyHbnS5URyD2TNf0lnmLtkZiY+yguh2ss+SvuAvD7RzUFr8QpXGqymY6OLnBu3MQrQ/w2m+1xnmptgTNXw5ImpWRAT+91TaGrodrMqbYzykFgtJKDZoFWYZ4jJoGeMVnJYZZTEHKe5hL+O9hs4azdZQkPHGzQFPggHBubUsyUVtTwqoQnGhqxCE7K5UQOg0g8LKA1NXPZyRQpR0buwMeHPgOLzRki2mxzgGDPBMvSI5uNifQCpfQRLuvBgTPyAwtUVbNPU1QkrN//kSLQ7siFPW/VQ3dPf2BsYmImUK1z53+Dsl21S0yRWxGbkXtG87HWZYIiZba7MCCsvGovCp9dNj41fVdZft29/ZCZu0UxY0yml7m01UPq4FKAy509yxJGyqt9Xmj78eyKPUi9l7zeIchyFShmNoikkEsMj8rKyoexhG6sxEV8CZuW9HKqIwdq394Pff1ezcTRJjM57L+lmOnruw5JtgxuhsxwudqwWulTeBc6L4vXojU1AxoPH9VMHm2qGyljTd27QR3hGqnBQJ/Ajd0tP/h6aRV8f/InuPJHH/za3gUNn38DjmyPEuiXC+2ayaPJubnFECOdXT3s9JI0WOnXXHoosBEdYg+wJtXU3KIZmM0Qu9nSLA/0D/g0n4k21UYYBXtWwAhO+iUuPQiLxf4MDgQug9FoetEku0GrjaRluKSKCOQalx8EbuxCNiimZQVOC62A8aLaBGO2SzqKceIbufwg0MiHbHBbSZlmsHhx6R4ZGBgEUV5aIi3m8oPA46yBDZaW79EMGC/KXV7mt83HpWWF3JBEnufyg8CK1LHBnLwizYDxIvt3QTbBmqJr01ZuhPRw6aHAa7NFdtr++xXNoLHm5ORsSDX2vXdAqQbuD8Klh4JdxHDQyx7Ky98O4xPTmsFjxdnZBRgauqlUov794CUTT6tjKPkhSbkG0IgdH/xHNhOvykxPz4MPTQwO+uDod63gyS9WVYJ2ssbNJYcHmnlDNsOY4ykKNMDq2vo1Z1XNO1BRXQc7y3ZDwbYd6o8UEgXasioTMtAMxfL5QoLEkwIZNCTTTHaZ5RJXD/axwWxNT5M+f9IjeKqdihXxRDqBPz/FvBVo4gWUE34/6NChQ4cOHTp0rFckJPwL4qQcu4ZL4ykAAAAASUVORK5CYII=">
+      </a>
+    </div>
+    <div class="breif">
+      <strong>برنامج التدريب الصيفي:</strong> كجزءٍ من مسؤوليّتنا الإجتماعيّة، يسرّ مؤسّسة أنظمة غيمة (Cloud Systems) أن تقدّم برنامج تدريبٍ صيفي لطلاّب كليّات الحاسب والكليّات ذات العلاقة ولكلّ المُهتمين بمجالات التقنيّة والإنترنت. تمّ تصميم هذا البرنامج من قبل نخبةٍ من الموهوبين والذين يمتلكون خبرةً مهنيّةً وأكاديميّةً في مجالاتٍ تقنيّةٍ مختلفة.
+    </div>
+    <div class="features">
+      <div class="feature">
+        <img src="data:image/png;base64,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">
+        <h2>
+          مهارات مطلوبة
+        </h2>
+        <p>
+          نأخذ في عين الإعتبار في منهج التدريب أفضل المهارات المطلوبة في سوق العمل السعوديّ والعالمي، ثم نُسند المهام إلى المتدرّب كي نحدّد من خلالها مدى امتلاك المتدرّب مهارةً ما من عدمها.
+        </p>
+      </div><!--
+      --><div class="feature">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUVSURBVGhD7ZlvTFtVGMZZ1Pg/GmOWmGhi/OwXs8Tsg7GJ9Jb2tqPQey60hVI6S6EwsAisukiY2chkTufGcBGTzf8aJ5vC5pbsA+DYFh0QQXHpBhPDDAsqq5OBGunxPfe+9w6y2+l1u21j+kuebz3v+zz3nHPP4ZKTJUuWLFmyZDEAk8NzP2cXms288IaWODt53uR03os/z0xMongXmD0LZum1JYyuJuR2HJZ5mG0kyIzmgZo95bTFe0XNHj+tc7mp5UogNw7LPOBJv89M1oil9Lfoc1fpq6eDNFBQrMzKmzgs8+B44Twz2eGv0AwyEqqkLcSjBInhsMwi1+56RDZIaF91nWaQ0+FqusfrwyCwBPMKH8DhmYPZQQKSOdCFpibNIBPraulRv1/dJxYHKcbhmYPZLuxl5ipJiWYIph8j9fRYeTn1OYukIDCmA4dnDhxPJpi53Z17aTLm5+fp0NAQfXFzmxyEJ9/g8MzA4ix+iBljGjjxJdq+msXFRSnIO+99KP0WlGAHKJZJP7k24mXGLA6Rxn+9hLa1GR0dpV8cG5B+K49xFWCZ9INXDxoM16Pd5MRiMWlWSgNheVZ4YTuWST+w1k8zUzs7OtFuciYnJ6UgzRtbleU1jGXSC8cVrkRDtLd/AO0mZ3p6Wgqy5613pTEwm3+ZzeI9WC59gBlRCfLzL7NoNzmzs7NSkN6+fmVGaC5P7FgufcAab2dmyitq0eq1mZubk4IwecpCyqy0Ybn0AefHCDOztT5Kf+/a/4+a+3gfPfnyNknRIG54OzmJ5dKDxULug6e5yMx0V9ZonuZaOhFYK53wuzylGET4k+NK78SyqcdsJ/n4ROm5+kZN01oaClZIQQ76/MqMULh0mrFs6oH9sY2Z8Ba4NQ0n07dVVVIQJrJGPhjh3rUJy6YeMHCKmWgtCWgaTqYzNevUIA2CG4OQfiybWvLz8+9mZwAzsT8U1jScTJN1z6hBdrhLcHkJCyaT/zYsnzrg3W+VDRAaizRoGk6mC/XPqkE+XbJPON71JJZPHfAEt7DmRS4vvbyzXZcubn+NHm9ar8rlxL/jefIClk8dsKYHWPPNL72KR50+hoeH1YOxIdqsBDmK5VODw+G4A/bHH6z5Zz2H0Zo+xsbG1CC7Xu+UgsCba27VqtAt2MZ4OBt5SnqCoHPf/4DW9DE+Pq4GOfT5EXlGWBhr4WpsYzywPzaypoI7QBOJBFrTx9TUlBpkcHCQOon8dQVmOoptjAfWci9r2rKpDW3pZ2ZmRg3CFGncgLMiHMQ2xmK1Wm+FE32eNe060IO29BOPx5cF2dG+WwkSF0XxJmxnHGaH+ITckNAzZyfQln4WFhaWBenuOYRB4N5lFR7DdsYBb5YNrJlT9ElfRf4rbG8tfQWzfeKAM4nVhld7BNsZB+yPI6xZ1Bekl9u2XpdOwQl/HK4risKifK038+QAtjMGk8l0MzS5xJq9vbZK8/qhR1+HKtWrCtOWIrx38cJP0G6F3NUALHbyuNQINFgb0TSnR9+Fq5cF+aC0TA4iqfBRbHvjgXd8I2viWFNEL66PaprTI/ZRe2mQPhCPH+5gCVdj2xsPLKtu1qShqEzTmF6dj0SWBWEK4T+C4KF9hG2vD6u18EF4KiNQcFaVXUjI0268oNfi0t5wvsTy8oofRnv/Hs4m2LQapFMWG+HQni5WwJPwgKKKLLzwCszSJ1C0y1CxHjxptdjFkCL2oYN5kq39b8nJ+RvmRbn0+imtCgAAAABJRU5ErkJggg==">
+        <h2>
+          مسارات متنوّعة
+        </h2>
+        <p>
+          نضع بين يدي المتدرّب 9 مسارات مختلفة، يتعلّم منها شيئًا جديدًا، يستكشفُ نفسه من خلالها، ويحلّل ويطوّر أنظمةً ويضمن توفّرها، ثمّ يختبرها، ويعثر على ثغراتها، إضافةً إلى مواضيع أخرى.
+        </p>
+      </div><!--
+      --><div class="feature">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVsSURBVGhD7VpbbBRVGG7VJ1+8x8uD0Zio8RJNfDJeNt37zkzb7c4Zti3W4DVQlAJeEGPoCyZopI14qRFsTWistAhCTLwQFQSpUEWjvgC2lSDQUrW03V687fH/z/5nOuzudLfdWevDfMmfdub8//edb+bM7JkzU+LCxf8LpYFI7C6/yhowvKp+T2Nj4znUljewJqDE7kUOn6IvQ07YXZpqLTLKwvHrfCrrAXGeFofKQuwGSsuJoBa7EWvSOLhfYQdRg9KKA49iXAFix6VouX4fr2B1lk7oA/6K6qso3RaY41P107KuwqgTXCYPaHjLqy+ndOfhU1gLCoUr4/yTT3fzZDIp4rPde3kkWkNm2FuUbgsYRq2YizVYK3k+3vU5D1XEyYz+GqU7D+jkryjy+pttPB0b29plB85Quh1K4WyMYO6mt9upehrIjW0wfAcp31lomnZ+qqOM79m7n2Sn0X2gh4wwrqq1F1FZBrBN5mFNOpBbtqMmlTkLOJIJFGjv2Eqy09iydYcQhyM5ZRjGuVSSAY/Hcx7mYC7WpGNzR1fKiMJGqcR5QAc6UaRywf388JGfSJrz3r5+XlW9KGVE0XdQui3gWtuJuViDtRLIidyCR2VbKN15lJXrN0MnxlEIL8plTzzLG556Tlz8KRNs3Bdht1K6LYJq1W2SJ1xZLTiQS17oKZ749ZReHPg13We9dZohbgSxEKXlhDeiR4Dnt3Qe5A5EmJfSigtPZeWFcOqXgGibCIXV4z5qzhtYE4joS1Mceity+v3GBdTsYkZ4w+wmOGovwe/EhzCMdmULODMfwfBoCqhVt1BZBvAaAp5mkZuFQwRooBZqUpkzANIV0MG/rGN5poD8f7wqe5rKTeA+bMtWYxOo2UDlhcGrxaJAlkTiWPUDfO26Jt78yhtZ4/kXmrle+6DZEZ/G4kQDswK9Ru7HHMzNxoGBGqhF+ahdQTRzB5zqH5Hw4SUr+PDwGbrj22NkdJQ/+tiTKSMKO0I0yNOL+7BtdHSMsu2BWqhJPD8QzdxAs11BtmdfN0nkhnW6EgrFrwmUs2vldrZpiR2s05WCZsN4YUqi3v6fiT43Tg0Mmh2A4XUnhtzGtnyBmiZPHj+0trAa6es/RvS5MXh6yOyAXzPuFkHb2JYvUFPWuUYQrhHXyNlwjaTDNeIaORtFMXKg5xD/PW2uNTk5xccnJmhrGk4YQS3UlHWOGcEIaAbf/1VqrjQxOcnZwofELDV9EliokS+7DwotkwOiICPhMLsMpt9jVkK5qGY97enDbmws8X5QWzAMj7CJUKjqSloiTQDXEK5VJZPJDyg1Kzo6t5vcGFA74tFqLqVuzQ1oJqgad8AD0VEkncnIiZMDfOWqNVNK1cL6YJBdjLNnohEzadzn1/TF9Q2rhjDXDtIIaqI29oFoCgccle9zGZGLdPjsQWUZkM8lne9lLs5JmEZAk8qcQz5GLEfyGJVlAB6STmLO6jVr+fqXW/iLTa/yd7u2i1i3fgNv2tAi2oj7MJU5B8eM0HJpPgG5CSpzDg6ekW0Q45BzQtZDHIdOW7b1U34l9gc8kOVcfp01nDIiAbfkq2W9uM1bbtHYRmnOwzViA9dIoXCN2GA+jXyLIhtbN4tO93zznWlkH0zyEPK1GRg5SmW2mEcj7B0UqV20mHdt28kfX7naNLJ0+TN8U1s7N2A2LPYp7AufGvPPGFqsVtbD78Yj8He53MY2zLGuxuNbLkc+JAgoxu0g+Oe0ePEDzuzfuNyKr+Hwf5yJO/KmF78b8SlGDxxxsTpf9FD0X3zR6CX4ShuM9MHw/nqmN8azBpIhuTWi0TohOJvAab21Lp3D+qEO/f/ffHAzfygp+RfdCwfaTh0MyQAAAABJRU5ErkJggg==">
+        <h2>
+          تجربة استثنائيّة
+        </h2>
+        <p>
+          نقدّم تدريبًا مكثّفًا في فترةٍ وجيزةٍ للذكور والإناث، ومن خلال الإنترنت فقط (عن بُعد)، يتحدّى فيها المتدرّب نفسه، وينظّم وقته، ويعرف مدى التزامه من عدمه. نضمن تجربةً فريدةً لا يُمكن لها أن تُنسى.
+        </p>
+      </div>
+    </div>
+    <div class="tracks">
+      <h2>المسارات</h2>
+      <div class="track">
+        <h3>المُستكشف (Explorer)</h3>
+        <p>
+          <span class="badge">7 أيّام</span>يركّز هذا المسار على إعطاء المتدرّب فرصةً لاكتشافِ العديد من الأشياء، مثل Linux و Command Line وأساسيّات الشبكة، والمبادرة والمساهمة في مجتمع الإنترنت، وغير ذلك.
+        </p>
+      </div><!--
+      --><div class="track">
+        <h3>المُحلِّل (Analyst)</h3>
+        <p>
+          <span class="badge">4 أيّام</span>يهدفُ المسار إلى تمكين المتدرّب من تحليل وتصميم الأنظمة من خلال تحليل حالةٍ معيّنة وحلّ المشاكل المعقّدة المرتبطة بها، ثمّ ترجمة الحلّ إلى مخطّط Business Process. يسعى المسار أيضًا إلى أن يمتلك المتدرّب المهارات ذات العلاقة بتجربة المستخدم (UX) وواجهة المستخدم (UI).
+        </p>
+      </div><!--
+      --><div class="track">
+        <h3>الديڤ أوبزر (DevOpser)</h3>
+        <p>
+          <span class="badge">10 أيّام</span>”ديڤ أوبز (DevOps)“ هي ممارسةٌ تهدف إلى الدمج بين تطوير البرمجيّات (ديڤ Dev) وتشغيل البرمجيّات (أوبز Ops). الميزة الأساسيّة لكلّ هذا تكمن في أتمتة (Automation) ومراقبة (Monitoring) كلّ خطوات بناء البرمجيّة، من التكامل (Integration)، والاختبار (Testing)، والإطلاق (Releasing)، والنشر (Deployment)، وإدارة البنية التحتيّة (Infrastructure Management).
+        </p>
+      </div><!--
+      --><div class="track">
+        <h3>المطوِّر (Developer)</h3>
+        <p>
+          <span class="badge">10 أيّام</span>تكمنُ الفكرة في هذا المسار إلى تمكين المتدرّب من بناء التطبيقات، سواءً كانت للويب أو للجوّال، وسواءً كانت صغيرةً أو كبيرةً، وإلى تعريف المتدرّب بمفاهيم الحوسبة دون خادم (Serverless Computing)، وإلى فتح أبواب الإبتكار والتبنّي للتقنيّات والمنصّات.
+        </p>
+      </div><!--
+      --><div class="track">
+        <h3>المُختبِر (Tester)</h3>
+        <p>
+          <span class="badge">يومان</span>يركّز هذا المسار على إعطاء المتدرّب لمحةً سريعةً عن الاختبارات من نوع End-to-End Testing، عن طريق تنفيذ بعض المهام واكتساب المعرفة في حقول ضمان الجودة (Quality Assurance).
+        </p>
+      </div><!--
+      --><div class="track">
+        <h3>المُخترِق (Hacker)</h3>
+        <p>
+          <span class="badge">يومان</span>يهدفُ المسار إلى تقديم أساسيّات الإختراق الأخلاقي (Ethical Hacking) للمتدرّب، إضافةً إلى تقنيّاتٍ في اختراق التطبيقات دون الخادم (Serverless Applications).
+        </p>
+      </div><!--
+      --><div class="track">
+        <h3>الرُوبوت (Robot)</h3>
+        <p>
+          <span class="badge">3 أيّام</span>يركّز هذا المسار على إعطاء لمحةٍ سريعةٍ عن ”تعلّم الآلة (Machine Learning, ML)“ و“الذكاء الاصطناعي (Artificial Intelligence, AI)“ وعيّنةٌ من تطبيقاتهما.
+        </p>
+      </div><!--
+      --><div class="track">
+        <h3>الصيّاد (Hunter)</h3>
+        <p>
+          <span class="badge">يومان</span>”الصيّاد“ هو اختصارٌ لصائد الوظائف أو الباحث عنها. يركّز المسار على مساعدة المتدرّب في أن يبحث عن وظيفةٍ مناسبة. سيتمكّن المتدرّب من ذلك من خلال تسويقهِ لذاته في إطار نظرةٍ واقعيّةٍ لمهاراتِه وتعليمِه وخبراتِه. من الجيّد أيضًا أن يحظى المتدرّب بمهارات التواصل المناسبة.
+        </p>
+      </div><!--
+      --><div class="track">
+        <h3>الضّيف (Guest)</h3>
+        <p>
+          <span class="badge">8 أيّام</span><span class="badge">اختياري</span>يلتقي المتدرّبون في هذا المسار مع ضيوفٍ من مجالاتٍ شتّى. يستمع المتدرّبون إليهم ثم يطرحون عليهم تساؤلاتهم ثم يجيب عليها الضيوف. هذا المسار هو مسارٌ اختياريٌّ ومتاحٌ للجميع.
+        </p>
+      </div>
+    </div>
+    <div class="agenda">
+      <h2>الأجندة</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>التاريخ</th>
+            <th>الموضوع</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>الأحد 01/04</td>
+            <td>بداية التسجيل والقبول</td>
+          </tr>
+          <tr>
+            <td>السبت 14/04</td>
+            <td>نهاية التسجيل والقبول</td>
+          </tr>
+          <tr>
+            <td>الجمعة 01/06</td>
+            <td>اللقاء التعريفي</td>
+          </tr>
+          <tr>
+            <td class="agenda-section" colspan="2">المُستكشف (Explorer)</td>
+          </tr>
+          <tr>
+            <td>الأحد 01/07</td>
+            <td>Linux and command line (bash)</td>
+          </tr>
+          <tr>
+            <td>الأثنين 02/07</td>
+            <td>Linux and command line (bash)</td>
+          </tr>
+          <tr>
+            <td>الثلاثاء 03/07</td>
+            <td>Networking part 1: theory</td>
+          </tr>
+          <tr>
+            <td>الأربعاء 04/07</td>
+            <td>Networking part 2: tasks</td>
+          </tr>
+          <tr>
+            <td>الخميس 05/07</td>
+            <td>Networking part 2: tasks</td>
+          </tr>
+          <tr>
+            <td>الجمعة 06/07</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>السبت 07/07</td>
+            <td>استضافة الضيف #1</td>
+          </tr>
+          <tr>
+            <td>الأحد 08/07</td>
+            <td>Contrbution: Wikipedia task</td>
+          </tr>
+          <tr>
+            <td>الأثنين 09/07</td>
+            <td>Contrbution: StackOverflow task</td>
+          </tr>
+          <tr>
+            <td class="agenda-section" colspan="2">المُحلِّل (Analyst)</td>
+          </tr>
+          <tr>
+            <td>الثلاثاء 10/07</td>
+            <td>Introduction to system analysis and design</td>
+          </tr>
+          <tr>
+            <td>الأربعاء 11/07</td>
+            <td>Analysis</td>
+          </tr>
+          <tr>
+            <td>الخميس 12/07</td>
+            <td>UX and UI</td>
+          </tr>
+          <tr>
+            <td>الجمعة 13/07</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>السبت 14/07</td>
+            <td>استضافة الضيف #2</td>
+          </tr>
+          <tr>
+            <td>الأحد 15/07</td>
+            <td>Design</td>
+          </tr>
+          <tr>
+            <td class="agenda-section" colspan="2">الديڤ أوبزر (DevOpser)</td>
+          </tr>
+          <tr>
+            <td>الأثنين 16/07</td>
+            <td>Virtualization</td>
+          </tr>
+          <tr>
+            <td>الثلاثاء 17/07</td>
+            <td>Containerization</td>
+          </tr>
+          <tr>
+            <td>الأربعاء 18/07</td>
+            <td>Container orchestration</td>
+          </tr>
+          <tr>
+            <td>الخميس 19/07</td>
+            <td>Container orchestration</td>
+          </tr>
+          <tr>
+            <td>الجمعة 20/07</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>السبت 21/07</td>
+            <td>استضافة الضيف #3</td>
+          </tr>
+          <tr>
+            <td>الأحد 22/07</td>
+            <td>Container orchestration</td>
+          </tr>
+          <tr>
+            <td>الأثنين 23/07</td>
+            <td>IT automation</td>
+          </tr>
+          <tr>
+            <td>الثلاثاء 24/07</td>
+            <td>Cloud computing</td>
+          </tr>
+          <tr>
+            <td>الأربعاء 25/07</td>
+            <td>Cloud computing</td>
+          </tr>
+          <tr>
+            <td>الخميس 26/07</td>
+            <td>Infrastructure as a Code (IaC)</td>
+          </tr>
+          <tr>
+            <td>الجمعة 27/07</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>السبت 28/07</td>
+            <td>استضافة الضيف #4</td>
+          </tr>
+          <tr>
+            <td>الأحد 29/07</td>
+            <td>يوم إضافي للمهام الغير مُكتملة</td>
+          </tr>
+          <tr>
+            <td class="agenda-section" colspan="2">المطوِّر (Developer)</td>
+          </tr>
+          <tr>
+            <td>الأثنين 30/07</td>
+            <td>Building a portfolio</td>
+          </tr>
+          <tr>
+            <td>الثلاثاء 31/07</td>
+            <td>Controlling the code</td>
+          </tr>
+          <tr>
+            <td>الأربعاء 01/08</td>
+            <td>Improving the portfolio</td>
+          </tr>
+          <tr>
+            <td>الخميس 02/08</td>
+            <td>Adding some javascript</td>
+          </tr>
+          <tr>
+            <td>الجمعة 03/08</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>السبت 04/08</td>
+            <td>استضافة الضيف #5</td>
+          </tr>
+          <tr>
+            <td>الأحد 05/08</td>
+            <td>Making a simple endpoint</td>
+          </tr>
+          <tr>
+            <td>الأثنين 06/08</td>
+            <td>Making a simple endpoint</td>
+          </tr>
+          <tr>
+            <td>الثلاثاء 07/08</td>
+            <td>Building a single page application</td>
+          </tr>
+          <tr>
+            <td>الأربعاء 08/08</td>
+            <td>Building a single page application</td>
+          </tr>
+          <tr>
+            <td>الخميس 09/08</td>
+            <td>Building a mobile application</td>
+          </tr>
+          <tr>
+            <td>الجمعة 10/08</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>السبت 11/08</td>
+            <td>استضافة الضيف #6</td>
+          </tr>
+          <tr>
+            <td>الأحد 12/08</td>
+            <td>Building a mobile application</td>
+          </tr>
+          <tr>
+            <td class="agenda-section" colspan="2">المُختبِر (Tester)</td>
+          </tr>
+          <tr>
+            <td>الأثنين 13/08</td>
+            <td>Test types and steps</td>
+          </tr>
+          <tr>
+            <td>الثلاثاء 14/08</td>
+            <td>End to end testing basics</td>
+          </tr>
+          <tr>
+            <td class="agenda-section" colspan="2">المُخترِق (Hacker)</td>
+          </tr>
+          <tr>
+            <td>الأربعاء 15/08</td>
+            <td>Ethical hacking fundamentals</td>
+          </tr>
+          <tr>
+            <td>الخميس 16/08</td>
+            <td>Hacking a serverless application</td>
+          </tr>
+          <tr>
+            <td>الجمعة 17/08</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>السبت 18/08</td>
+            <td>استضافة الضيف #7</td>
+          </tr>
+          <tr>
+            <td class="agenda-section" colspan="2">الرُوبوت (Robot)</td>
+          </tr>
+          <tr>
+            <td>الأحد 19/08</td>
+            <td>Introduction to Machine Learning</td>
+          </tr>
+          <tr>
+            <td>الأثنين 20/08</td>
+            <td>Introduction to TensorFlow</td>
+          </tr>
+          <tr>
+            <td>الثلاثاء 21/08</td>
+            <td>Installing and example</td>
+          </tr>
+          <tr>
+            <td class="agenda-section" colspan="2">الصيّاد (Hunter)</td>
+          </tr>
+          <tr>
+            <td>الأربعاء 22/08</td>
+            <td>Making a CV</td>
+          </tr>
+          <tr>
+            <td>الخميس 23/08</td>
+            <td>Making a video resume</td>
+          </tr>
+          <tr>
+            <td>الجمعة 24/08</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>السبت 25/08</td>
+            <td>استضافة الضيف #8</td>
+          </tr>
+          <tr>
+            <td>الأحد 26/08</td>
+            <td>اللقاء الختامي</td>
+          </tr>
+          <tr>
+            <td>الأثنين 27/08</td>
+            <td>تعبئة الإستبانة حول التدريب</td>
+          </tr>
+          <tr>
+            <td>الثلاثاء 28/08</td>
+            <td>تقييم المتدرّبين وتسليم الشهادات</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="actions">
+      <ul>
+        <li>
+          <span class="disabled">
+            تقدّم إلى برنامج التدريب الصيفي
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div class="copyrights">
+      (ح) جميع الحقوق محفوظة لمؤسّسة أنظمة غيمة (Cloud Systems).
+    </div>
+  </div>
+</body>
+</html>
